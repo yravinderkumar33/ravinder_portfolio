@@ -17,6 +17,10 @@ max-width: 100%;
 
 
 .even.landing{
+    .container{
+        outline:1px solid rgba($color:white, $alpha:0.5);
+        outline-offset: 30px;
+    }
 .banner{
 h3{
 font-family: 'Dancing Script', cursive; font-weight: bold;color:white
@@ -42,7 +46,6 @@ padding:1rem;
 .banner{
 padding:0px 1rem;
 }
-
 }
 
 div.odd{
@@ -106,7 +109,7 @@ color:white;
 .contactMe{
     position: fixed;
     top:0px;
-    right:0px;
+    right:10px;
     height:20vh;
     width:20vh;
     border-radius: 50%;
