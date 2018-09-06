@@ -1,0 +1,37 @@
+html { font-size: 1rem; }
+
+//mixin used with font size 
+
+@mixin fontSize($size) {
+    font-size:$size;
+}
+
+// mixin declration ends
+
+
+// media queries to make the font responsive 
+
+@media (min-width: 280px) {
+    html { @include fontSize(0.7rem); }
+    
+}
+
+@media (min-width: 350px) {
+    html { @include fontSize(0.8rem); }
+}
+
+@media (min-width: 576px) {
+    html { @include fontSize(0.9rem); }
+}
+@media (min-width: 768px) {
+    html { @include fontSize(0.9rem) }
+}
+@media (min-width: 992px) {
+    html { @include fontSize(1rem); }
+}
+@media (min-width: 1200px) {
+    html { @include fontSize(1rem); }
+}
+
+
+
